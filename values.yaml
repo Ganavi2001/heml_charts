@@ -1,0 +1,9 @@
+image:
+  repository: koutuk16/blue
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  name: myservice
+  type: ClusterIP
+  port: 80
